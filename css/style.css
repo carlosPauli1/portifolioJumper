@@ -1,0 +1,47 @@
+/* Reset CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2021/10/17/a-cool-dark-mountain-wallpaper.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cabecalho {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cabecalho__menu  {
+    font-size: 28px;
+    font-weight: 900
+}
+
+.cabecalho__link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.principal {
+    border: 1px solid red;
+    display: flex;
+}
+
+.principal__secao {
+    border: 1px solid blue;
+}
+
+.imagemPerfil {
+    width: 300px;
+    margin: 30px;
+    border-radius: 50%
+}
